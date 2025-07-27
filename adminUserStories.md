@@ -1,79 +1,69 @@
-1.Title: As an admin, I want to log into the portal with my username and password, so that I can securely manage the platform.
+Title: As an admin, I want to log into the portal with my username and password, so that I can securely manage the platform.
 
 Acceptance Criteria:
 
-Login form accepts valid credentials
+Login form validates credentials
 
-User is authenticated and granted appropriate permissions
+Successful login grants access to admin dashboard
 
-Invalid login attempts show an error message
+Invalid credentials return appropriate error messages
 
 Priority: High Story Points: 3 Notes:
 
-Consider multi-factor authentication as a future enhancement
+Consider implementing multi-factor authentication for enhanced security
 
-
-
-
-2.Title: As an admin, I want to log out of the portal, so that system access is protected when I’m away.
+Title: As an admin, I want to log out of the portal, so that unauthorized users cannot access the system.
 
 Acceptance Criteria:
 
-Logout button is accessible from all admin screens
+Logout option is available from all pages
 
-Session terminates upon logout
+Session ends and user is redirected to login screen
 
-User is redirected to login page
+No access to previous pages without reauthentication
 
 Priority: High Story Points: 2 Notes:
 
-Auto logout after inactivity can be added later
+Support automatic logout after a set period of inactivity
 
-
-
-3.Title: As an admin, I want to add doctors to the portal, so that they can be visible and active on the platform.
+Title: As an admin, I want to add doctors to the portal, so that they can be listed and available for patient appointments.
 
 Acceptance Criteria:
 
-Form allows entry of doctor details
+Form to input doctor information is functional
 
-Doctor is saved to the database
+Doctor profile is saved and displayed correctly
 
-Confirmation is shown after successful creation
+Confirmation or error message is shown after submission
 
 Priority: High Story Points: 3 Notes:
 
-Check for duplicate profiles before saving
+Ensure unique identification for each doctor
 
-
-
-4.Title: As an admin, I want to delete a doctor's profile from the portal, so that outdated or incorrect records are removed.
+Title: As an admin, I want to delete a doctor’s profile from the portal, so that I can remove inactive or incorrect records.
 
 Acceptance Criteria:
 
-Admin can locate doctor profile
+Admin can search and select the doctor to delete
 
-Delete option is available
+System prompts for confirmation before deletion
 
-Profile is permanently removed with confirmation
+Doctor profile is removed and related data cleaned up
 
 Priority: Medium Story Points: 2 Notes:
 
-Consider soft-delete for data recovery
+Soft-delete mechanism recommended for audit purposes
 
-
-
-
-5.Title: As an admin, I want to run a stored procedure in MySQL CLI to get monthly appointment statistics, so that I can track system usage.
+Title: As an admin, I want to run a stored procedure in MySQL CLI to view the number of appointments per month, so that I can monitor usage statistics.
 
 Acceptance Criteria:
 
-Stored procedure exists in the database
+Stored procedure is accessible via MySQL CLI
 
-Procedure returns number of appointments per month
+Procedure returns accurate monthly counts
 
-Output is logged or displayed clearly
+Output is easy to read and export
 
 Priority: Medium Story Points: 4 Notes:
 
-Ensure procedure is optimized and handles edge cases (e.g. months with zero appointments)
+Procedure should handle months with no appointments gracefully
