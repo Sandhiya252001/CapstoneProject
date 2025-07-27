@@ -27,7 +27,7 @@ _As a [Patient], I want [to sign up using my email and password], so that [I can
 
 
 **Title:**
-_As a [Patient], I want [ I want to log into the portal], so that [I can manage my bookings]._
+_As a [Patient], I want [to log into the portal], so that [I can manage my bookings]._
 
 **Acceptance Criteria:**
 1. [1.Login form accepts registered credentials]
@@ -40,7 +40,7 @@ _As a [Patient], I want [ I want to log into the portal], so that [I can manage 
 - [Include ‘Forgot Password’ option for recovery]
 
 **Title:**
-_As a [Patient], I want [ I want to log out of the portal], so that [I can secure my account]._
+_As a [Patient], I want [to log out of the portal], so that [I can secure my account]._
 
 **Acceptance Criteria:**
 1. [Logout is available on all screens]
@@ -53,7 +53,7 @@ _As a [Patient], I want [ I want to log out of the portal], so that [I can secur
 - [Implement automatic logout after a period of inactivityto run a stored procedure in MySQL CLI to view the number of appointments per month]
 
 **Title:**
-_As a [Patient], I want [I want to book an hour-long appointment with a doctor after logging in], so that [I can consult with them.]._
+_As a [Patient], I want [to book an hour-long appointment with a doctor after logging in], so that [I can consult with them.]._
 
 **Acceptance Criteria:**
 1. [Appointment booking form allows selection of time slot]
